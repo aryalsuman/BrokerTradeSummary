@@ -32,7 +32,7 @@ jobs:
           git config --local user.name "aryalsuman"
           git add .
           git commit -m "Data Scraped Sucessfully" -a
-          git push origin main
+          git push origin master
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
